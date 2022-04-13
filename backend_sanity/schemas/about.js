@@ -1,0 +1,37 @@
+export default{
+  name:'abouts',
+  title:'Abouts',
+  type: 'document',
+  fields:[
+      {
+          name:'name',
+          title:'Name',
+          type:'string'
+      },
+      {
+          name:'profession',
+          title:'Profession',
+          type:'string'
+      },
+      {
+        name:'curriculum',
+        title:'Curriculum',
+        type:'file'
+      },
+      {
+        name:'yearWorked',
+        title:'YearsWorked',
+        type:"string"
+      },
+      {
+        name:'projects',
+        title:'Projects',
+        type:"string"
+      },
+      {
+        name:'about',
+        title:'About',
+        type:"string"
+      }
+  ]
+}
