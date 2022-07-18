@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../assets/Curriculum.docx";
+import CV from "../../assets/Curriculum.pdf";
 import { useEffect, useState } from "react";
 import { urlFor, client } from "../../client";
 
@@ -14,7 +14,7 @@ const CTA = () => {
   return abouts.map(({ _id, curriculum }) => {
     return (
       <div className="cta" key={_id}>
-        <a id="btn-download" href={CV} download className="btn">
+        <a href={CV} download className="btn">
           Download CV
         </a>
 
