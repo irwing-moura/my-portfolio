@@ -1,5 +1,5 @@
-# my-portfolio
-My Portfolio With ReactJS and Sanity
+# Meu Portfólio
+Esse projeto se trata do meu Portfolio, criado com ReactJS e Sanity
 
 ## https://irwingmoura.netlify.app/
 
